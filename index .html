@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SweetCrumbs Bakery</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>SweetCrumbs Bakery</h1>
+    <h1>🍰 SweetCrumbs Bakery</h1>
     <p>Freshly Baked Happiness Every Day</p>
 </header>
 
@@ -22,18 +24,24 @@
 
 <section id="home">
     <h2>Welcome to SweetCrumbs Bakery</h2>
+
     <p>
         Welcome to SweetCrumbs Bakery, where we create delicious cakes,
         pastries, cookies, and breads made with love and the finest ingredients.
+        We are passionate about delivering freshly baked happiness to every customer.
     </p>
 </section>
 
 <section id="about">
     <h2>About Us</h2>
+
     <p>
         SweetCrumbs Bakery is dedicated to providing fresh and delicious baked
-        products to families and businesses.
+        products to families and businesses. Our skilled bakers use premium
+        ingredients to ensure quality, taste, and customer satisfaction.
     </p>
+
+    <p><em>"Baking smiles one bite at a time."</em></p>
 </section>
 
 <section id="products">
@@ -77,15 +85,15 @@
 
     <table>
         <tr>
-            <td><img src="images/cake.jpg" width="250"></td>
-            <td><img src="images/cupcake.jpg" width="250"></td>
-            <td><img src="images/bread.jpg" width="250"></td>
+            <td><img src="images/cake.jpg" alt="Chocolate Cake"></td>
+            <td><img src="images/cupcake.jpg" alt="Vanilla Cupcakes"></td>
+            <td><img src="images/bread.jpg" alt="Fresh Bread"></td>
         </tr>
 
         <tr>
-            <td><img src="images/cookies.jpg" width="250"></td>
-            <td><img src="images/croissant.jpg" width="250"></td>
-            <td><img src="images/pastry.jpg" width="250"></td>
+            <td><img src="images/cookies.jpg" alt="Cookies"></td>
+            <td><img src="images/croissant.jpg" alt="Croissants"></td>
+            <td><img src="images/pastry.jpg" alt="Pastries"></td>
         </tr>
     </table>
 </section>
@@ -95,50 +103,66 @@
 
     <div class="review">
         <h3>Mary Wanjiku</h3>
-        ★★★★★
+        <div class="stars">★★★★★</div>
         <p>The cakes are amazing and always fresh.</p>
     </div>
 
     <div class="review">
         <h3>John Kamau</h3>
-        ★★★★★
+        <div class="stars">★★★★★</div>
         <p>Excellent customer service and delicious pastries.</p>
     </div>
 
     <div class="review">
         <h3>Faith Njeri</h3>
-        ★★★★★
+        <div class="stars">★★★★★</div>
         <p>I loved my birthday cake. Highly recommended.</p>
     </div>
-
 </section>
 
 <section id="contact">
     <h2>Contact Us</h2>
 
-    <form>
-        <input type="text" placeholder="Full Name"><br><br>
+    <p>
+        <strong>Phone:</strong>
+        <a href="tel:0733521985">0733 521985</a>
+    </p>
 
-        <input type="email" placeholder="Email Address"><br><br>
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:kellywaweru55@gmail.com">
+            kellywaweru55@gmail.com
+        </a>
+    </p>
 
-        <input type="tel" placeholder="Phone Number"><br><br>
+    <p><strong>Location:</strong> Nairobi, Kenya</p>
 
-        <select>
+    <form action="#" method="post">
+
+        <input type="text" placeholder="Full Name" required>
+
+        <input type="email" placeholder="Email Address" required>
+
+        <input type="tel" placeholder="Phone Number" required>
+
+        <select required>
+            <option value="">Select Inquiry Type</option>
             <option>General Inquiry</option>
             <option>Order Request</option>
             <option>Delivery Information</option>
             <option>Feedback</option>
-        </select><br><br>
+        </select>
 
-        <textarea rows="5" placeholder="Message"></textarea><br><br>
+        <textarea rows="5" placeholder="Message" required></textarea>
 
         <input type="submit" value="Submit">
+
     </form>
 </section>
 
 <footer>
-    <p>© 2026 SweetCrumbs Bakery. All Rights Reserved.</p>
+    <p>&copy; 2026 SweetCrumbs Bakery. All Rights Reserved.</p>
 </footer>
 
 </body>
-</html>
+                    </html>
